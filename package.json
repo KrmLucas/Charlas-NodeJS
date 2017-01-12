@@ -1,19 +1,12 @@
 {
-  "name": "charlas-nodejs",
+  "name": "landing-page",
   "version": "1.0.0",
-  "description": "diversos ejercicios sobre NodeJS",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": true,
+  "dependencies": {
+    "mime": "^1.3.4",
+    "nodemailer": "^2.7.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KrmLucas/Charlas-NodeJS.git"
-  },
-  "author": "Lucas Krmpotic",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KrmLucas/Charlas-NodeJS/issues"
-  },
-  "homepage": "https://github.com/KrmLucas/Charlas-NodeJS#readme"
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
